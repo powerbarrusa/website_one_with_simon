@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    padding: 10px;
+  }
+
+#header {
+    background-color: grey;
+    flex-direction: row;
+    /* margin: auto; */
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.title {
+    background-color: lightgray;
+}
+
+.tagline {
+    background-color: blue;
+    margin-bottom: auto;
+}
+
+.menu {
+    background-color: pink;
+    flex-direction: row;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nameTag {
+    background-color: yellow;
+    flex-direction: column;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+#bodystuff {
+    display:flex;
+    flex-direction: row;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+footer {
+    background-color: gold;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.readmore1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.readmore2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.readmore3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#biglogo{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 75px;
+}
